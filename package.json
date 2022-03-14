@@ -1,5 +1,31 @@
 {
+  "name": "nord",
+  "version": "1.0.0",
+  "description": "A code editor made by codemirror.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chetan-khachane/Nord.git"
+  },
+  "author": "Chetan-khachane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chetan-khachane/Nord/issues"
+  },
+  "homepage": "https://github.com/Chetan-khachane/Nord#readme",
   "dependencies": {
-    "codemirror": "^5.65.2"
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@codemirror/basic-setup": "^0.19.1",
+    "@codemirror/lang-javascript": "^0.19.7",
+    "babel-loader": "^8.2.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   }
 }
